@@ -3,6 +3,6 @@ feature 'Hit points' do
     visit('/')
     sign_in_and_play
     p page.body
-    expect(page).to have_content 'Joe: 100HP'
+    expect(page).to have_content 'Aga: 100HP'
   end
 end
